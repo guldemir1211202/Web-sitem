@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: rgb(218, 221, 218);
+    height: 100vh;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(121, 6, 252);
+    opacity: 95%;
+}
+.navbar .logo {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.navbar .logo h1{
+    font-size: 40px;
+    text-decoration:none;
+   color:rgb(255, 255, 255);
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 30px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    line-height: 60px;
+
+}
+.navbar ul li a{
+    color:rgb(255, 230, 0);
+    text-decoration:none;
+    font-size: 20px;
+    padding: 3px 5px;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:teal;
+    border-radius: 1px;
+
+}
+.buttons button{
+    margin-right: 5px;
+    background-color:darkviolet;
+}
+.resim1 img{
+    width: 250px;
+}
+.resim1 h1{
+    margin-left: 85px;
+}
