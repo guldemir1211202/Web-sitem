@@ -51,16 +51,3 @@
     margin-right: 5px;
     background-color:darkviolet;
 }
-.resimler img{
-    width: 250px;
-    float: left;
-    margin: 30px;
-    margin-top: -10px;
-}
-.yazilar h1{
-top: 100px;
-float: left; 
-font-size: 50px;
-font-family: sans-serif;
-color: darkslategray;  
-}
